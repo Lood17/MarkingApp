@@ -3,10 +3,10 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        venv: "env",
         path: "app",
         message: [
-          "uv pip install -r requirements.txt"
+          "uv venv --clear .venv",
+          "uv pip install --python .venv\\Scripts\\python.exe -r requirements.txt"
         ]
       }
     }

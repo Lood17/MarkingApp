@@ -10,11 +10,10 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        venv: "env",
         env: { },
         path: "app",
         message: [
-          "python app.py --host 127.0.0.1 --port {{local.port}}"
+          ".venv\\Scripts\\python.exe app.py --host 0.0.0.0 --port {{local.port}}"
         ],
         on: [{
           event: "/(http:\\/\\/[0-9.:]+)/",
@@ -25,7 +24,7 @@ module.exports = {
     {
       method: "local.set",
       params: {
-        url: "{{input.event[1]}}"
+        url: "http://127.0.0.1:{{local.port}}"
       }
     }
   ]

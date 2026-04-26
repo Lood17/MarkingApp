@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Marking App">
+  <rect width="256" height="256" rx="48" fill="#0f766e"/>
+  <path d="M70 57h91l25 25v117H70z" fill="#f8fafc"/>
+  <path d="M161 57v27h25z" fill="#d7e2e7"/>
+  <path d="M92 106h72M92 132h72M92 158h42" stroke="#60717c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M89 190l27 25 56-65" fill="none" stroke="#13b981" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
